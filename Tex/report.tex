@@ -234,7 +234,7 @@
 		\item[E7.75] –––––––––––––––––––––––––––––––––– "HF"
 		\item[E8.25] At this time points cells were categorized into two different set. Those cells which expressed \textit{GFP} were labeled "4SG" and where considered as putative blood cells while those that did not where labeled "4SFG" and considered as putative endothelial cells. 
 	\end{itemize}
-	At each time points gene expression of a set of genes was measured in each cell, these genes were selected by hand as they were known to play a role in the process. Forty-six genes were selected, out of those : four were housekeeping genes in order to assess the quelity of the measures. Nine were markers known to identify the different cell states and thirty-three were transcription known to play a role in the transcriptional program underlying the differentciation process.
+	At each time points gene expression of a set of genes was measured in each cell, these genes were selected by hand as they were known to play a role in the process. Forty-six genes were selected, out of those : four were housekeeping genes in order to assess the quelity of the measures. Nine were markers known to identify the different cell states and thirty-three were transcription known to play a role in the transcriptional program underlying the differentiation process. 
 \subsection*{Categorizing Genes}
 	 To be pertinent in our analysis we first need to categorize the genes into the different cell states they belong to. We use the literature to guide us in our task. In the article, the authors underlign groups of genes as being caracteristic of the two end states:
 	\begin{itemize}
@@ -258,9 +258,20 @@
 	\end{figure}
 
 
-\section*{Their Network Inference}
+\section*{Their Network Inference Method}
+ The network inference tool used in the article was specially developed for their purpose. And indeed it achieves good results. Moreover it is explanatory, in the sense that it provides the update function of each gene as a boolean fucntion. We were first tempted to implement it but we finally decided, the amount of work was excessive. Still it is interesting to descibe their method.
+ 
+ \paragraph{State-transition Graph}
+ 
+ 
 \section*{Using MIIC}
-\section*{Appendix}
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width =\linewidth]{../MIIC-master/common/result/network.png}
+		\caption{Network Inferred by MIIC. \textcolor{orange}{Precursor genes}, \textcolor{green}{ Hematopoietic genes} and  \textbf{C} Endothelial genes}
+		\label{fig:miicnetwork}
+	\end{figure}
+\section*{Discussion}
 
 	
 \end{document}
