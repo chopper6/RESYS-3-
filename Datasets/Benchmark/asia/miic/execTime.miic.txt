@@ -1,0 +1,2 @@
+init	iter	initIter	ort	cut	ort_after_cut		total
+0.012307	0.004982	0.017289	0.003246	-nan	nan	0.02915

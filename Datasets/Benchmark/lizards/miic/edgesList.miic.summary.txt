@@ -1,0 +1,4 @@
+x	y	type	ai	info	cplx	Nxy_ai	log_confidence	infOrt	trueOrt	isOrtOk	sign	partial_correlation
+110	Species	Diameter	P	NA	6.3031	2.56462	409	3.73848	1	NA	NA	+	0.173911689646991
+101	Species	Height	P	NA	5.20246	2.55683	409	2.64563	1	NA	NA	-	-0.157910187514089
+011	Diameter	Height	N	NA	0.303853	2.55319	409	-2.249337	0	NA	NA	NA	NA

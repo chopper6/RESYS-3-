@@ -256,30 +256,36 @@
 		\caption{Mean gene expression values throughout the experiment. \textbf{A} Precursor genes \textbf{B} Hematopoietic genes \textbf{C} Endothelial genes}
 		\label{fig:meangene}
 	\end{figure}
-
-
-\section*{Their Network Inference Method}
- The network inference tool used in the article was specially developed for their purpose. And indeed it achieves good results. Moreover it is explanatory, in the sense that it provides the update function of each gene as a boolean fucntion. We were first tempted to implement it but we finally decided, the amount of work was excessive. Still it is interesting to describe their method.
- 
- \paragraph{State-transition graph} 
- Hi
- \paragraph{Network}
- Hello
- \begin{figure}[h!]
- 	\centering
- 	\includegraphics[width = \linewidth]{../Biblio/images/pap_network.png}
- 	\caption{Network constructed by the SCNS toolkit}
- 	\label{fig:scns}
- \end{figure}
  
 \section*{Using MIIC}
+	We then turned to MIIC to infer a network from the dataset provided. Now that we've categorized the genes and trimmed those that did not provide enough information. We downloaded the tool from gitHub and compiled the sources. We present the resulting graph in Fig.~\ref{fig:miicnetwork}.
 	\begin{figure}[h!]
 		\centering
-		\includegraphics[width =\linewidth]{../MIIC-master/common/result/network.png}
+		\includegraphics[width =\linewidth]{../Datasets/miic-trimmed/miic-trimmed.png}
 		\caption{Network Inferred by MIIC. \textcolor{orange}{Precursor genes}, \textcolor{green}{ Hematopoietic genes} and  \textcolor{blue}{Endothelial genes}}
 		\label{fig:miicnetwork}
 	\end{figure}
-\section*{Discussion}
+
+\paragraph{Discussion }The network clearly represents the hematopoietic process as seen by the repression links  infered between the genes classified as hematopoietic and those classified as endothelial. The Cdh1 gene behaves as a regulator ( through repression) of the other precursor genes, if we look back at its gene expression levels we see that the expression drops throughout the differentiation process. It leads us to believe that it was wrongly categorized as an hematopoietic gene, that it should rather be categorized as a precursor gene.
+
+\section*{Their Network Inference Method}
+The network inference tool used in the article was specially developed for their purpose. And indeed it achieves good results. Moreover it is explanatory, in the sense that it provides the update function of each gene as a boolean fucntion. We were first tempted to implement it but we finally decided, the amount of work was excessive. Still, we found it interesting to describe their method.
+
+\paragraph{State-transition graph} 
+The number of cell is great enough to consider we have all the states the cells can be in. Every pair of states that differ in the expression of exactly one gene are connected to form the state-transition graph.
+\paragraph{Network Inference}
+Then they search for the direction of the edges as well as the Boolean update function for each of the genes. To do so, they translate their problem into a SAT problem.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width = \linewidth]{../Biblio/images/pap_network.png}
+	\caption{Network constructed by the SCNS toolkit}
+	\label{fig:scns}
+\end{figure}
+
+\paragraph{Discussion} One thing interesting about this type of boolean network is that you can find its stable state. A stable state will be assigning a value of expression (ie expressed or not) to each gene such that all boolean equalities are satisfied. We would expect the final cells (those that have already specified) to be stable state of the network. If the 4SG cells are indeed stable state (or some of them at least) then it does tell that the network is accurate. Also one such network would allow to simulate the evolution of a cell, it would be interesting to know how well this network fares in doing so.
+
+
 
 	
 \end{document}

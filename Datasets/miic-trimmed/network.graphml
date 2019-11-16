@@ -1,0 +1,1463 @@
+<graphml>
+	<key id="weight" for="node" attr.name="weight" attr.type="double">
+		<default>0.2</default>
+	</key>
+	<key id="label" for="node" attr.name="label" attr.type="string"/>
+	<key id="weight" for="edge" attr.name="weight" attr.type="double"/>
+	<key id="label" for="edge" attr.name="label" attr.type="string"/>
+	<key id="sourceArrowShape" for="edge" attr.name="sourceArrowShape" attr.type="string"/>
+	<key id="targetArrowShape" for="edge" attr.name="targetArrowShape" attr.type="string"/>
+	<key id="upstream" for="edge" attr.name="upstream" attr.type="string"/>
+	<key id="info" for="edge" attr.name="info" attr.type="double"/>
+	<key id="complexity" for="edge" attr.name="complexity" attr.type="double"/>
+	<key id="nSamples" for="edge" attr.name="nSamples" attr.type="int"/>
+	<key id="log_confidence" for="edge" attr.name="log_confidence" attr.type="double"/>
+	<key id="sign" for="edge" attr.name="sign" attr.type="string"/>
+	<key id="partialCorrelation" for="edge" attr.name="partialCorrelation" attr.type="double"/>
+	<key id="edgeType" for="edge" attr.name="edgeType" attr.type="int"/>
+
+	<graph edgedefault="directed">
+		<node id="Cdh1">
+			<data key="label">Cdh1</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="Cdh5">
+			<data key="label">Cdh5</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="Egfl7">
+			<data key="label">Egfl7</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="Ets1">
+			<data key="label">Ets1</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="Ets2">
+			<data key="label">Ets2</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="Etv6">
+			<data key="label">Etv6</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="Fli1">
+			<data key="label">Fli1</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="FoxH1">
+			<data key="label">FoxH1</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="FoxO4">
+			<data key="label">FoxO4</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="Gata1">
+			<data key="label">Gata1</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="Gfi1">
+			<data key="label">Gfi1</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="Gfi1b">
+			<data key="label">Gfi1b</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="HbbbH1">
+			<data key="label">HbbbH1</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="Hhex">
+			<data key="label">Hhex</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="HoxB2">
+			<data key="label">HoxB2</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="HoxD8">
+			<data key="label">HoxD8</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="Itga2b">
+			<data key="label">Itga2b</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="Kdr">
+			<data key="label">Kdr</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="Kit">
+			<data key="label">Kit</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="Ldb1">
+			<data key="label">Ldb1</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="Lmo2">
+			<data key="label">Lmo2</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="Lyl1">
+			<data key="label">Lyl1</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="Mecom">
+			<data key="label">Mecom</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="Meis1">
+			<data key="label">Meis1</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="Mitf">
+			<data key="label">Mitf</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="Myb">
+			<data key="label">Myb</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="Notch1">
+			<data key="label">Notch1</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="Pecam1">
+			<data key="label">Pecam1</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="Procr">
+			<data key="label">Procr</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="Runx1">
+			<data key="label">Runx1</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="Sox17">
+			<data key="label">Sox17</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="Sox7">
+			<data key="label">Sox7</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="Tal1">
+			<data key="label">Tal1</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="Tbx20">
+			<data key="label">Tbx20</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="Tbx3">
+			<data key="label">Tbx3</data>
+			<data key="weight">0.5</data>
+		</node>
+
+		<edge target="Gata1" source="Gfi1b" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Gata1--&gt;Gfi1b</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="info">1123.08</data>
+			<data key="complexity">3.65671</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">1119.42329</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.720154452805933</data>
+		</edge>
+		<edge target="Sox7" source="Cdh5" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Sox7--&gt;Cdh5</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="info">1073.19</data>
+			<data key="complexity">3.68099</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">1069.50901</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.696466404741499</data>
+		</edge>
+		<edge target="Notch1" source="Sox7" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Notch1--&gt;Sox7</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="info">994.075</data>
+			<data key="complexity">3.66843</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">990.40657</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.683946749306841</data>
+		</edge>
+		<edge target="Cdh1" source="Tal1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">T</data>
+			<data key="label">Cdh1--|Tal1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="info">868.096</data>
+			<data key="complexity">3.41191</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">864.68409</data>
+			<data key="sign">-</data>
+			<data key="partialCorrelation">-0.743514256943831</data>
+		</edge>
+		<edge target="Tal1" source="Lyl1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Tal1--&gt;Lyl1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="info">796.965</data>
+			<data key="complexity">3.51024</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">793.45476</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.642050410704342</data>
+		</edge>
+		<edge target="Cdh5" source="Kdr" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Cdh5--&gt;Kdr</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="info">753.695</data>
+			<data key="complexity">3.61844</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">750.07656</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.556573176617499</data>
+		</edge>
+		<edge target="Cdh5" source="Ets1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Cdh5--&gt;Ets1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="info">695.412</data>
+			<data key="complexity">3.63994</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">691.77206</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.553994111989976</data>
+		</edge>
+		<edge target="Fli1" source="Tal1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Fli1--&gt;Tal1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="info">693.24</data>
+			<data key="complexity">3.45532</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">689.78468</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.646731494396618</data>
+		</edge>
+		<edge target="Tal1" source="Pecam1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Tal1--&gt;Pecam1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="info">683.92</data>
+			<data key="complexity">3.50321</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">680.41679</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.608387164035706</data>
+		</edge>
+		<edge target="Hhex" source="Cdh5" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Hhex--&gt;Cdh5</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="info">673.123</data>
+			<data key="complexity">3.65554</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">669.46746</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.554105827094433</data>
+		</edge>
+		<edge target="Gata1" source="HbbbH1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Gata1--&gt;HbbbH1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="info">663.155</data>
+			<data key="complexity">3.66088</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">659.49412</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.563023247496345</data>
+		</edge>
+		<edge target="Cdh5" source="Fli1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Cdh5--&gt;Fli1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="info">613.033</data>
+			<data key="complexity">3.58988</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">609.44312</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.499529056577823</data>
+		</edge>
+		<edge target="Lyl1" source="Itga2b" directed="false">
+			<data key="label">Lyl1---Itga2b</data>
+			<data key="edgeType">1</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="info">610.831</data>
+			<data key="complexity">3.6442</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">607.1868</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.534182232126106</data>
+		</edge>
+		<edge target="Myb" source="Gfi1b" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Myb--&gt;Gfi1b</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="info">605.758</data>
+			<data key="complexity">3.68059</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">602.07741</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.538611195763437</data>
+		</edge>
+		<edge target="Tbx20" source="Sox7" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Tbx20--&gt;Sox7</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="info">560.575</data>
+			<data key="complexity">3.6806</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">556.8944</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.520704210439831</data>
+		</edge>
+		<edge target="Gata1" source="Notch1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">T</data>
+			<data key="label">Gata1--|Notch1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="info">511.784</data>
+			<data key="complexity">3.65033</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">508.13367</data>
+			<data key="sign">-</data>
+			<data key="partialCorrelation">-0.50600137134625</data>
+		</edge>
+		<edge target="Gfi1b" source="Itga2b" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Gfi1b--&gt;Itga2b</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="info">503.637</data>
+			<data key="complexity">3.67996</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">499.95704</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.491719247558381</data>
+		</edge>
+		<edge target="Meis1" source="Notch1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Meis1--&gt;Notch1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="info">483.174</data>
+			<data key="complexity">3.66161</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">479.51239</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.490521125216264</data>
+		</edge>
+		<edge target="Sox17" source="Gata1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">T</data>
+			<data key="label">Sox17--|Gata1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="info">450.291</data>
+			<data key="complexity">3.65256</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">446.63844</data>
+			<data key="sign">-</data>
+			<data key="partialCorrelation">-0.450172978867968</data>
+		</edge>
+		<edge target="Tbx20" source="Tbx3" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Tbx20--&gt;Tbx3</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="info">389.456</data>
+			<data key="complexity">3.68109</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">385.77491</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.435707821562892</data>
+		</edge>
+		<edge target="Procr" source="Cdh5" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Procr--&gt;Cdh5</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="info">378.33</data>
+			<data key="complexity">3.64289</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">374.68711</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.425822553511878</data>
+		</edge>
+		<edge target="Lmo2" source="Tal1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Lmo2--&gt;Tal1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="info">354.803</data>
+			<data key="complexity">3.54592</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">351.25708</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.371787210762805</data>
+		</edge>
+		<edge target="Runx1" source="Gfi1b" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Runx1--&gt;Gfi1b</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="info">338.137</data>
+			<data key="complexity">3.56774</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">334.56926</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.373323217867299</data>
+		</edge>
+		<edge target="Egfl7" source="Cdh5" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Egfl7--&gt;Cdh5</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="info">331.369</data>
+			<data key="complexity">3.51319</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">327.85581</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.372452181092436</data>
+		</edge>
+		<edge target="Meis1" source="Mecom" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Meis1--&gt;Mecom</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="info">237.504</data>
+			<data key="complexity">3.60588</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">233.89812</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.326159711677207</data>
+		</edge>
+		<edge target="Kit" source="Fli1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Kit--&gt;Fli1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="info">209.642</data>
+			<data key="complexity">3.34231</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">206.29969</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.363878380678676</data>
+		</edge>
+		<edge target="Kdr" source="Notch1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Kdr--&gt;Notch1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">Cdh5</data>
+			<data key="info">203.756</data>
+			<data key="complexity">5.59027</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">198.16573</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.364015776774092</data>
+		</edge>
+		<edge target="Notch1" source="Ets1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Notch1--&gt;Ets1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">Cdh5</data>
+			<data key="info">184.727</data>
+			<data key="complexity">5.92059</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">178.80641</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.352139241536436</data>
+		</edge>
+		<edge target="Etv6" source="Cdh5" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Etv6--&gt;Cdh5</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="info">174.851</data>
+			<data key="complexity">3.38507</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">171.46593</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.268021853262516</data>
+		</edge>
+		<edge target="Meis1" source="Gata1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">T</data>
+			<data key="label">Meis1--|Gata1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">Notch1</data>
+			<data key="info">176.314</data>
+			<data key="complexity">6.34121</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">169.97279</data>
+			<data key="sign">-</data>
+			<data key="partialCorrelation">-0.29489585413133</data>
+		</edge>
+		<edge target="Itga2b" source="Pecam1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Itga2b--&gt;Pecam1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">Lyl1</data>
+			<data key="info">145.129</data>
+			<data key="complexity">6.09191</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">139.03709</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.268649803414869</data>
+		</edge>
+		<edge target="HbbbH1" source="Tbx20" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">T</data>
+			<data key="label">HbbbH1--|Tbx20</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">Gata1</data>
+			<data key="info">143.56</data>
+			<data key="complexity">6.3185</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">137.2415</data>
+			<data key="sign">-</data>
+			<data key="partialCorrelation">-0.180560068619517</data>
+		</edge>
+		<edge target="Cdh5" source="Tal1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Cdh5--&gt;Tal1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">Fli1</data>
+			<data key="info">139.709</data>
+			<data key="complexity">5.4019</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">134.3071</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.188902927178206</data>
+		</edge>
+		<edge target="Gfi1b" source="Lyl1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Gfi1b--&gt;Lyl1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">Itga2b</data>
+			<data key="info">136.463</data>
+			<data key="complexity">6.19197</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">130.27103</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.238462438495494</data>
+		</edge>
+		<edge target="Lmo2" source="Cdh5" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Lmo2--&gt;Cdh5</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">Tal1</data>
+			<data key="info">131.836</data>
+			<data key="complexity">5.0602</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">126.7758</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.274052313128492</data>
+		</edge>
+		<edge target="HbbbH1" source="Gfi1b" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">HbbbH1--&gt;Gfi1b</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">Gata1</data>
+			<data key="info">123.038</data>
+			<data key="complexity">6.01535</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">117.02265</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.198772187645255</data>
+		</edge>
+		<edge target="Sox7" source="Hhex" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Sox7--&gt;Hhex</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">Cdh5</data>
+			<data key="info">120.889</data>
+			<data key="complexity">5.9533</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">114.9357</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.283878077911701</data>
+		</edge>
+		<edge target="Sox17" source="Mecom" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Sox17--&gt;Mecom</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">Meis1</data>
+			<data key="info">113.165</data>
+			<data key="complexity">6.21523</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">106.94977</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.248640988002753</data>
+		</edge>
+		<edge target="Cdh5" source="Pecam1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Cdh5--&gt;Pecam1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">Tal1</data>
+			<data key="info">96.9286</data>
+			<data key="complexity">5.26292</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">91.66568</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.228543793467488</data>
+		</edge>
+		<edge target="Tal1" source="Myb" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Tal1--&gt;Myb</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">Gfi1b</data>
+			<data key="info">94.1671</data>
+			<data key="complexity">5.83536</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">88.33174</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.199860299929749</data>
+		</edge>
+		<edge target="Gfi1b" source="Sox17" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">T</data>
+			<data key="label">Gfi1b--|Sox17</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">Gata1,Itga2b</data>
+			<data key="info">96.667</data>
+			<data key="complexity">10.3508</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">86.3162</data>
+			<data key="sign">-</data>
+			<data key="partialCorrelation">-0.217293135592874</data>
+		</edge>
+		<edge target="Tbx3" source="Gata1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">T</data>
+			<data key="label">Tbx3--|Gata1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">Tbx20</data>
+			<data key="info">87.5527</data>
+			<data key="complexity">6.41192</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">81.14078</data>
+			<data key="sign">-</data>
+			<data key="partialCorrelation">-0.162675957334757</data>
+		</edge>
+		<edge target="Gfi1" source="Cdh5" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Gfi1--&gt;Cdh5</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="info">83.5822</data>
+			<data key="complexity">3.44609</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">80.13611</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.200688403052278</data>
+		</edge>
+		<edge target="Ets1" source="Kdr" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Ets1--&gt;Kdr</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">Cdh5,Notch1</data>
+			<data key="info">88.9844</data>
+			<data key="complexity">8.97425</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">80.01015</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.250722173788966</data>
+		</edge>
+		<edge target="Sox7" source="Egfl7" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Sox7--&gt;Egfl7</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">Cdh5</data>
+			<data key="info">84.366</data>
+			<data key="complexity">5.51674</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">78.84926</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.193239689162601</data>
+		</edge>
+		<edge target="Lyl1" source="Pecam1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Lyl1--&gt;Pecam1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">Tal1,Itga2b</data>
+			<data key="info">86.7715</data>
+			<data key="complexity">8.92499</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">77.84651</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.253092153587706</data>
+		</edge>
+		<edge target="Gfi1" source="Gfi1b" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Gfi1--&gt;Gfi1b</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="info">74.0618</data>
+			<data key="complexity">3.43991</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">70.62189</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.194477587537618</data>
+		</edge>
+		<edge target="Cdh1" source="Kdr" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">T</data>
+			<data key="label">Cdh1--|Kdr</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">Fli1</data>
+			<data key="info">73.8971</data>
+			<data key="complexity">5.86596</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">68.03114</data>
+			<data key="sign">-</data>
+			<data key="partialCorrelation">-0.216679151560731</data>
+		</edge>
+		<edge target="Myb" source="Gata1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Myb--&gt;Gata1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">Gfi1b</data>
+			<data key="info">67.5383</data>
+			<data key="complexity">6.0535</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">61.4848</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.16766420024792</data>
+		</edge>
+		<edge target="Mitf" source="Tbx20" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">T</data>
+			<data key="label">Mitf--|Tbx20</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="info">57.413</data>
+			<data key="complexity">3.62341</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">53.78959</data>
+			<data key="sign">-</data>
+			<data key="partialCorrelation">-0.170382819716063</data>
+		</edge>
+		<edge target="Sox7" source="Tbx3" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Sox7--&gt;Tbx3</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">Tbx20,Gata1</data>
+			<data key="info">64.1182</data>
+			<data key="complexity">10.9311</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">53.1871</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.0905651358547541</data>
+		</edge>
+		<edge target="Procr" source="Kdr" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Procr--&gt;Kdr</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">Cdh5</data>
+			<data key="info">57.9764</data>
+			<data key="complexity">5.65555</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">52.32085</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.124690471021318</data>
+		</edge>
+		<edge target="Etv6" source="Cdh1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">T</data>
+			<data key="label">Etv6--|Cdh1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">Cdh5</data>
+			<data key="info">53.9664</data>
+			<data key="complexity">5.14176</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">48.82464</data>
+			<data key="sign">-</data>
+			<data key="partialCorrelation">-0.217751375252636</data>
+		</edge>
+		<edge target="Runx1" source="Itga2b" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Runx1--&gt;Itga2b</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">Gfi1b</data>
+			<data key="info">52.4229</data>
+			<data key="complexity">5.91353</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">46.50937</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.143447023037194</data>
+		</edge>
+		<edge target="Pecam1" source="Kit" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Pecam1--&gt;Kit</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">Fli1</data>
+			<data key="info">52.3452</data>
+			<data key="complexity">5.84097</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">46.50423</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.165742465291156</data>
+		</edge>
+		<edge target="Ldb1" source="Cdh1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">T</data>
+			<data key="label">Ldb1--|Cdh1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="info">44.0213</data>
+			<data key="complexity">3.00708</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">41.01422</data>
+			<data key="sign">-</data>
+			<data key="partialCorrelation">-0.175271889454741</data>
+		</edge>
+		<edge target="Notch1" source="Mecom" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Notch1--&gt;Mecom</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">Meis1,Sox17</data>
+			<data key="info">49.3532</data>
+			<data key="complexity">10.7787</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">38.5745</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.129487093777651</data>
+		</edge>
+		<edge target="Kdr" source="Tbx20" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Kdr--&gt;Tbx20</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">Sox7,Notch1</data>
+			<data key="info">48.281</data>
+			<data key="complexity">10.0884</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">38.1926</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.140718434246075</data>
+		</edge>
+		<edge target="Meis1" source="Itga2b" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">T</data>
+			<data key="label">Meis1--|Itga2b</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="info">39.7658</data>
+			<data key="complexity">3.67358</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">36.09222</data>
+			<data key="sign">-</data>
+			<data key="partialCorrelation">-0.141730975814749</data>
+		</edge>
+		<edge target="Tal1" source="Itga2b" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Tal1--&gt;Itga2b</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">Lyl1,Pecam1</data>
+			<data key="info">44.0673</data>
+			<data key="complexity">9.37586</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">34.69144</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.0872582816076624</data>
+		</edge>
+		<edge target="Egfl7" source="Notch1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Egfl7--&gt;Notch1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">Cdh5,Sox7</data>
+			<data key="info">43.521</data>
+			<data key="complexity">9.13906</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">34.38194</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.102348248709731</data>
+		</edge>
+		<edge target="HbbbH1" source="Notch1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">T</data>
+			<data key="label">HbbbH1--|Notch1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">Gata1,Tbx20,Sox17</data>
+			<data key="info">48.3035</data>
+			<data key="complexity">18.2587</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">30.0448</data>
+			<data key="sign">-</data>
+			<data key="partialCorrelation">-0.0673242244648649</data>
+		</edge>
+		<edge target="Kdr" source="Hhex" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Kdr--&gt;Hhex</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">Cdh5,Sox7,Tal1</data>
+			<data key="info">41.8105</data>
+			<data key="complexity">12.9156</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">28.8949</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.110850808460637</data>
+		</edge>
+		<edge target="Tal1" source="Hhex" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Tal1--&gt;Hhex</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">Cdh5,Fli1</data>
+			<data key="info">34.6483</data>
+			<data key="complexity">8.49979</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">26.14851</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.110208773640239</data>
+		</edge>
+		<edge target="FoxH1" source="Gata1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">FoxH1--&gt;Gata1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="info">28.9522</data>
+			<data key="complexity">3.06887</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">25.88333</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.101855642922798</data>
+		</edge>
+		<edge target="Cdh1" source="Lyl1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">T</data>
+			<data key="label">Cdh1--|Lyl1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">Tal1</data>
+			<data key="info">31.0104</data>
+			<data key="complexity">5.3946</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">25.6158</data>
+			<data key="sign">-</data>
+			<data key="partialCorrelation">-0.102983148201494</data>
+		</edge>
+		<edge target="Sox17" source="Sox7" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Sox17--&gt;Sox7</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">Gata1,Cdh5,Tbx20</data>
+			<data key="info">40.8101</data>
+			<data key="complexity">17.4467</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">23.3634</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.0990665877707762</data>
+		</edge>
+		<edge target="Cdh5" source="Meis1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Cdh5--&gt;Meis1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">Notch1,Mecom</data>
+			<data key="info">33.5614</data>
+			<data key="complexity">10.278</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">23.2834</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.117594924049513</data>
+		</edge>
+		<edge target="Lmo2" source="Hhex" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Lmo2--&gt;Hhex</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">Tal1,Cdh5</data>
+			<data key="info">31.1867</data>
+			<data key="complexity">8.96941</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">22.21729</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.116801662205209</data>
+		</edge>
+		<edge target="Hhex" source="Fli1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Hhex--&gt;Fli1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">Cdh5,Kdr,Tal1</data>
+			<data key="info">33.7511</data>
+			<data key="complexity">12.8359</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">20.9152</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.10870095862787</data>
+		</edge>
+		<edge target="Notch1" source="Itga2b" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">T</data>
+			<data key="label">Notch1--|Itga2b</data>
+			<data key="edgeType">2</data>
+			<data key="weight">7.442568</data>
+			<data key="upstream">NA</data>
+			<data key="info">22.28</data>
+			<data key="complexity">3.67358</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">18.60642</data>
+			<data key="sign">-</data>
+			<data key="partialCorrelation">-0.106215853750019</data>
+		</edge>
+		<edge target="FoxO4" source="Gfi1b" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">FoxO4--&gt;Gfi1b</data>
+			<data key="edgeType">2</data>
+			<data key="weight">6.725968</data>
+			<data key="upstream">NA</data>
+			<data key="info">19.7477</data>
+			<data key="complexity">2.93278</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">16.81492</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.0857827794055146</data>
+		</edge>
+		<edge target="Etv6" source="Kdr" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Etv6--&gt;Kdr</data>
+			<data key="edgeType">2</data>
+			<data key="weight">6.697076</data>
+			<data key="upstream">Cdh5,Cdh1</data>
+			<data key="info">24.347</data>
+			<data key="complexity">7.60431</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">16.74269</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.155291836909393</data>
+		</edge>
+		<edge target="Tal1" source="Kdr" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Tal1--&gt;Kdr</data>
+			<data key="edgeType">2</data>
+			<data key="weight">5.872844</data>
+			<data key="upstream">Cdh5,Fli1</data>
+			<data key="info">22.6324</data>
+			<data key="complexity">7.95029</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">14.68211</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.0677424642502852</data>
+		</edge>
+		<edge target="Mitf" source="Gata1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Mitf--&gt;Gata1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">5.0551</data>
+			<data key="upstream">Tbx20</data>
+			<data key="info">19.0302</data>
+			<data key="complexity">6.39245</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">12.63775</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.101771044972964</data>
+		</edge>
+		<edge target="FoxH1" source="FoxO4" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">FoxH1--&gt;FoxO4</data>
+			<data key="edgeType">2</data>
+			<data key="weight">4.418812</data>
+			<data key="upstream">Gfi1b</data>
+			<data key="info">14.4267</data>
+			<data key="complexity">3.37967</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">11.04703</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.158777039134085</data>
+		</edge>
+		<edge target="Notch1" source="Procr" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Notch1--&gt;Procr</data>
+			<data key="edgeType">2</data>
+			<data key="weight">4.39524</data>
+			<data key="upstream">Cdh5,Kdr</data>
+			<data key="info">19.954</data>
+			<data key="complexity">8.9659</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">10.9881</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.0954059941155511</data>
+		</edge>
+		<edge target="Ets2" source="Sox7" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Ets2--&gt;Sox7</data>
+			<data key="edgeType">2</data>
+			<data key="weight">4.078676</data>
+			<data key="upstream">NA</data>
+			<data key="info">12.9529</data>
+			<data key="complexity">2.75621</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">10.19669</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.0761279805360582</data>
+		</edge>
+		<edge target="Lmo2" source="Fli1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Lmo2--&gt;Fli1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">3.20412</data>
+			<data key="upstream">Tal1,Cdh5,Hhex</data>
+			<data key="info">21.6442</data>
+			<data key="complexity">13.6339</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">8.0103</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.0850222879681196</data>
+		</edge>
+		<edge target="Fli1" source="Cdh1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">T</data>
+			<data key="label">Fli1--|Cdh1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">3.13188</data>
+			<data key="upstream">Tal1,Kdr,Lyl1,Gata1</data>
+			<data key="info">26.1515</data>
+			<data key="complexity">18.3218</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">7.8297</data>
+			<data key="sign">-</data>
+			<data key="partialCorrelation">-0.159309723108538</data>
+		</edge>
+		<edge target="HoxD8" source="Tbx3" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">HoxD8--&gt;Tbx3</data>
+			<data key="edgeType">2</data>
+			<data key="weight">3.035664</data>
+			<data key="upstream">NA</data>
+			<data key="info">10.235</data>
+			<data key="complexity">2.64584</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">7.58916</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.0640706519763229</data>
+		</edge>
+		<edge target="Gfi1" source="Myb" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Gfi1--&gt;Myb</data>
+			<data key="edgeType">2</data>
+			<data key="weight">2.81332</data>
+			<data key="upstream">Gfi1b,Hhex</data>
+			<data key="info">17.2797</data>
+			<data key="complexity">10.2464</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">7.0333</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.063982644600506</data>
+		</edge>
+		<edge target="Kit" source="Cdh1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">T</data>
+			<data key="label">Kit--|Cdh1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">2.763852</data>
+			<data key="upstream">Fli1,Pecam1</data>
+			<data key="info">16.4313</data>
+			<data key="complexity">9.52167</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">6.90963</data>
+			<data key="sign">-</data>
+			<data key="partialCorrelation">-0.121363543956918</data>
+		</edge>
+		<edge target="Cdh5" source="Kit" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Cdh5--&gt;Kit</data>
+			<data key="edgeType">2</data>
+			<data key="weight">2.564056</data>
+			<data key="upstream">Fli1,Pecam1</data>
+			<data key="info">15.533</data>
+			<data key="complexity">9.12286</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">6.41014</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.0518633158030681</data>
+		</edge>
+		<edge target="Sox17" source="Itga2b" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">T</data>
+			<data key="label">Sox17--|Itga2b</data>
+			<data key="edgeType">2</data>
+			<data key="weight">1.48572</data>
+			<data key="upstream">Cdh1,Ldb1</data>
+			<data key="info">12.2104</data>
+			<data key="complexity">8.4961</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">3.7143</data>
+			<data key="sign">-</data>
+			<data key="partialCorrelation">-0.0788453755144282</data>
+		</edge>
+		<edge target="Ldb1" source="Mecom" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Ldb1--&gt;Mecom</data>
+			<data key="edgeType">2</data>
+			<data key="weight">1.240304</data>
+			<data key="upstream">Kdr</data>
+			<data key="info">8.39428</data>
+			<data key="complexity">5.29352</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">3.10076</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.0506349471731987</data>
+		</edge>
+		<edge target="Cdh1" source="Pecam1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">T</data>
+			<data key="label">Cdh1--|Pecam1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">1.21856</data>
+			<data key="upstream">Tal1,Fli1,Lyl1,Runx1</data>
+			<data key="info">25.6694</data>
+			<data key="complexity">22.623</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">3.0464</data>
+			<data key="sign">-</data>
+			<data key="partialCorrelation">-0.0856864878146029</data>
+		</edge>
+		<edge target="HoxB2" source="Meis1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">HoxB2--&gt;Meis1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">1.117512</data>
+			<data key="upstream">NA</data>
+			<data key="info">5.41381</data>
+			<data key="complexity">2.62003</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">2.79378</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.04217631788653</data>
+		</edge>
+		<edge target="HoxB2" source="Notch1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">HoxB2--&gt;Notch1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">1.117512</data>
+			<data key="upstream">NA</data>
+			<data key="info">5.41381</data>
+			<data key="complexity">2.62003</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">2.79378</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.04217631788653</data>
+		</edge>
+		<edge target="Hhex" source="Egfl7" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Hhex--&gt;Egfl7</data>
+			<data key="edgeType">2</data>
+			<data key="weight">0.959159999999999</data>
+			<data key="upstream">Cdh5,Kdr,Sox7</data>
+			<data key="info">16.4411</data>
+			<data key="complexity">14.0432</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">2.3979</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.0836913628354093</data>
+		</edge>
+		<edge target="Sox7" source="Myb" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">T</data>
+			<data key="label">Sox7--|Myb</data>
+			<data key="edgeType">2</data>
+			<data key="weight">0.886272</data>
+			<data key="upstream">Mitf</data>
+			<data key="info">8.75766</data>
+			<data key="complexity">6.54198</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">2.21568</data>
+			<data key="sign">-</data>
+			<data key="partialCorrelation">-0.0666733229894472</data>
+		</edge>
+		<edge target="Ldb1" source="FoxH1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Ldb1--&gt;FoxH1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">1</data>
+			<data key="upstream">Gfi1b,Tbx20</data>
+			<data key="info">7.46611</data>
+			<data key="complexity">6.83594</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">0.63017</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.0983747714237503</data>
+		</edge>
+		<edge target="Ets2" source="Egfl7" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Ets2--&gt;Egfl7</data>
+			<data key="edgeType">2</data>
+			<data key="weight">1</data>
+			<data key="upstream">Sox7</data>
+			<data key="info">4.45423</data>
+			<data key="complexity">4.01118</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">0.443049999999999</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.069077581958048</data>
+		</edge>
+	</graph>
+</graphml>
+

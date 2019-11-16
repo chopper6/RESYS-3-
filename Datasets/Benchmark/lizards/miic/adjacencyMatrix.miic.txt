@@ -1,0 +1,4 @@
+Species	Diameter	Height
+Species	0	1	1
+Diameter	1	0	0
+Height	1	0	0

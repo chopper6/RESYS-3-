@@ -1,0 +1,149 @@
+<graphml>
+	<key id="weight" for="node" attr.name="weight" attr.type="double">
+		<default>0.2</default>
+	</key>
+	<key id="label" for="node" attr.name="label" attr.type="string"/>
+	<key id="weight" for="edge" attr.name="weight" attr.type="double"/>
+	<key id="label" for="edge" attr.name="label" attr.type="string"/>
+	<key id="sourceArrowShape" for="edge" attr.name="sourceArrowShape" attr.type="string"/>
+	<key id="targetArrowShape" for="edge" attr.name="targetArrowShape" attr.type="string"/>
+	<key id="upstream" for="edge" attr.name="upstream" attr.type="string"/>
+	<key id="info" for="edge" attr.name="info" attr.type="double"/>
+	<key id="complexity" for="edge" attr.name="complexity" attr.type="double"/>
+	<key id="nSamples" for="edge" attr.name="nSamples" attr.type="int"/>
+	<key id="log_confidence" for="edge" attr.name="log_confidence" attr.type="double"/>
+	<key id="sign" for="edge" attr.name="sign" attr.type="string"/>
+	<key id="partialCorrelation" for="edge" attr.name="partialCorrelation" attr.type="double"/>
+	<key id="edgeType" for="edge" attr.name="edgeType" attr.type="int"/>
+
+	<graph edgedefault="directed">
+		<node id="A">
+			<data key="label">A</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="S">
+			<data key="label">S</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="T">
+			<data key="label">T</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="L">
+			<data key="label">L</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="B">
+			<data key="label">B</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="E">
+			<data key="label">E</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="X">
+			<data key="label">X</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="D">
+			<data key="label">D</data>
+			<data key="weight">0.5</data>
+		</node>
+
+		<edge target="D" source="B" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">D--&gt;B</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="info">1186.62</data>
+			<data key="complexity">3.80398</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">1182.81602</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.658889413872841</data>
+		</edge>
+		<edge target="E" source="L" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">E--&gt;L</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="info">1089.1</data>
+			<data key="complexity">3.14623</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">1085.95377</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.94034704280499</data>
+		</edge>
+		<edge target="X" source="E" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">X--&gt;E</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="info">932.389</data>
+			<data key="complexity">3.26594</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">929.12306</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.784057662297632</data>
+		</edge>
+		<edge target="B" source="S" directed="false">
+			<data key="label">B---S</data>
+			<data key="edgeType">1</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="info">451.328</data>
+			<data key="complexity">3.80486</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">447.52314</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.418370297572561</data>
+		</edge>
+		<edge target="L" source="S" directed="false">
+			<data key="label">L---S</data>
+			<data key="edgeType">1</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="info">124.956</data>
+			<data key="complexity">3.46275</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">121.49325</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.209459065293838</data>
+		</edge>
+		<edge target="E" source="T" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">E--&gt;T</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="info">117.095</data>
+			<data key="complexity">2.68213</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">114.41287</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.333311519038403</data>
+		</edge>
+		<edge target="D" source="E" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">D--&gt;E</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">S</data>
+			<data key="info">56.0332</data>
+			<data key="complexity">6.08941</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">49.94379</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.138155282357263</data>
+		</edge>
+	</graph>
+</graphml>
+

@@ -1,0 +1,4 @@
+x	y	z.name	ui.vect	zi.vect	Ixy_ui	cplx	Rxyz_ui	category	Nxy_ui
+110	Species	Diameter	NA	NA	Height	6.3031	2.56462	0	3	409
+101	Species	Height	NA	NA	Diameter	5.20246	2.55683	0	3	409
+011	Diameter	Height	NA	NA	NA	0.303853	2.55319	0	1	409

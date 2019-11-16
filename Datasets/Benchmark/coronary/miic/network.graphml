@@ -1,0 +1,151 @@
+<graphml>
+	<key id="weight" for="node" attr.name="weight" attr.type="double">
+		<default>0.2</default>
+	</key>
+	<key id="label" for="node" attr.name="label" attr.type="string"/>
+	<key id="weight" for="edge" attr.name="weight" attr.type="double"/>
+	<key id="label" for="edge" attr.name="label" attr.type="string"/>
+	<key id="sourceArrowShape" for="edge" attr.name="sourceArrowShape" attr.type="string"/>
+	<key id="targetArrowShape" for="edge" attr.name="targetArrowShape" attr.type="string"/>
+	<key id="upstream" for="edge" attr.name="upstream" attr.type="string"/>
+	<key id="info" for="edge" attr.name="info" attr.type="double"/>
+	<key id="complexity" for="edge" attr.name="complexity" attr.type="double"/>
+	<key id="nSamples" for="edge" attr.name="nSamples" attr.type="int"/>
+	<key id="log_confidence" for="edge" attr.name="log_confidence" attr.type="double"/>
+	<key id="sign" for="edge" attr.name="sign" attr.type="string"/>
+	<key id="partialCorrelation" for="edge" attr.name="partialCorrelation" attr.type="double"/>
+	<key id="edgeType" for="edge" attr.name="edgeType" attr.type="int"/>
+
+	<graph edgedefault="directed">
+		<node id="Smoking">
+			<data key="label">Smoking</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="M. Work">
+			<data key="label">M. Work</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="P. Work">
+			<data key="label">P. Work</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="Pressure">
+			<data key="label">Pressure</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="Proteins">
+			<data key="label">Proteins</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="Family">
+			<data key="label">Family</data>
+			<data key="weight">0.5</data>
+		</node>
+
+		<edge target="P. Work" source="M. Work" directed="false">
+			<data key="label">P. Work---M. Work</data>
+			<data key="edgeType">1</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="info">268.032</data>
+			<data key="complexity">3.30129</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">264.73071</data>
+			<data key="sign">-</data>
+			<data key="partialCorrelation">-0.522111794535176</data>
+		</edge>
+		<edge target="Proteins" source="M. Work" directed="false">
+			<data key="label">Proteins---M. Work</data>
+			<data key="edgeType">1</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="info">24.7892</data>
+			<data key="complexity">3.29556</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">21.49364</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.16427696518598</data>
+		</edge>
+		<edge target="Smoking" source="M. Work" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">T</data>
+			<data key="label">Smoking--|M. Work</data>
+			<data key="edgeType">2</data>
+			<data key="weight">7.195748</data>
+			<data key="upstream">NA</data>
+			<data key="info">21.2902</data>
+			<data key="complexity">3.30083</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">17.98937</data>
+			<data key="sign">-</data>
+			<data key="partialCorrelation">-0.15155935044378</data>
+		</edge>
+		<edge target="Smoking" source="P. Work" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Smoking--&gt;P. Work</data>
+			<data key="edgeType">2</data>
+			<data key="weight">4.170696</data>
+			<data key="upstream">NA</data>
+			<data key="info">13.7405</data>
+			<data key="complexity">3.31376</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">10.42674</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.122026708300279</data>
+		</edge>
+		<edge target="Smoking" source="Proteins" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Smoking--&gt;Proteins</data>
+			<data key="edgeType">2</data>
+			<data key="weight">2.156848</data>
+			<data key="upstream">NA</data>
+			<data key="info">8.70016</data>
+			<data key="complexity">3.30804</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">5.39212</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.0971776732588112</data>
+		</edge>
+		<edge target="Proteins" source="Pressure" directed="false">
+			<data key="label">Proteins---Pressure</data>
+			<data key="edgeType">1</data>
+			<data key="weight">1.240512</data>
+			<data key="upstream">NA</data>
+			<data key="info">6.40461</data>
+			<data key="complexity">3.30333</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">3.10128</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.0834614258607541</data>
+		</edge>
+		<edge target="Family" source="M. Work" directed="false">
+			<data key="label">Family---M. Work</data>
+			<data key="edgeType">1</data>
+			<data key="weight">1.17462</data>
+			<data key="upstream">NA</data>
+			<data key="info">6.0626</data>
+			<data key="complexity">3.12605</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">2.93655</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.0819689924208044</data>
+		</edge>
+		<edge target="Smoking" source="Pressure" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">T</data>
+			<data key="label">Smoking--|Pressure</data>
+			<data key="edgeType">2</data>
+			<data key="weight">0.883024</data>
+			<data key="upstream">NA</data>
+			<data key="info">5.51616</data>
+			<data key="complexity">3.3086</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">2.20756</data>
+			<data key="sign">-</data>
+			<data key="partialCorrelation">-0.0773434495619876</data>
+		</edge>
+	</graph>
+</graphml>
+

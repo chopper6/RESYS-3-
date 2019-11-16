@@ -1,0 +1,16 @@
+x	y	z.name	ui.vect	zi.vect	Ixy_ui	cplx	Rxyz_ui	category	Nxy_ui
+011000	M. Work	P. Work	NA	NA	Smoking,Pressure,Proteins,Family	268.032	3.30129	0	3	1841
+010010	M. Work	Proteins	NA	NA	Smoking,P. Work,Pressure,Family	24.7892	3.29556	0	3	1841
+110000	Smoking	M. Work	NA	NA	P. Work,Pressure,Proteins,Family	21.2902	3.30083	0	3	1841
+101000	Smoking	P. Work	NA	NA	M. Work,Pressure,Proteins	13.7405	3.31376	0	3	1841
+100010	Smoking	Proteins	NA	NA	M. Work,P. Work,Pressure	8.70016	3.30804	0	3	1841
+000110	Pressure	Proteins	NA	NA	Smoking,M. Work,P. Work	6.40461	3.30333	0	3	1841
+010001	M. Work	Family	NA	NA	Smoking,P. Work,Pressure,Proteins	6.0626	3.12605	0	3	1841
+100100	Smoking	Pressure	NA	NA	M. Work,P. Work,Proteins	5.51616	3.3086	0	3	1841
+100001	Smoking	Family	NA	NA	NA	0.534331	3.13853	0	1	1841
+001100	P. Work	Pressure	NA	NA	NA	0.0477178	3.30906	0	1	1841
+001001	P. Work	Family	NA	NA	NA	0.0851034	3.13899	0	1	1841
+000101	Pressure	Family	NA	NA	NA	0.561899	3.13382	0	1	1841
+000011	Proteins	Family	NA	NA	NA	1.50186	3.13326	0	1	1841
+001010	P. Work	Proteins	NA	M. Work	Smoking,,Pressure	0.93102	5.72517	9.82187	1	1841
+010100	M. Work	Pressure	NA	Proteins	Smoking,P. Work,,Family	5.25196	5.89579	0.324719	1	1841

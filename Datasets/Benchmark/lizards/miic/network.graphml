@@ -1,0 +1,59 @@
+<graphml>
+	<key id="weight" for="node" attr.name="weight" attr.type="double">
+		<default>0.2</default>
+	</key>
+	<key id="label" for="node" attr.name="label" attr.type="string"/>
+	<key id="weight" for="edge" attr.name="weight" attr.type="double"/>
+	<key id="label" for="edge" attr.name="label" attr.type="string"/>
+	<key id="sourceArrowShape" for="edge" attr.name="sourceArrowShape" attr.type="string"/>
+	<key id="targetArrowShape" for="edge" attr.name="targetArrowShape" attr.type="string"/>
+	<key id="upstream" for="edge" attr.name="upstream" attr.type="string"/>
+	<key id="info" for="edge" attr.name="info" attr.type="double"/>
+	<key id="complexity" for="edge" attr.name="complexity" attr.type="double"/>
+	<key id="nSamples" for="edge" attr.name="nSamples" attr.type="int"/>
+	<key id="log_confidence" for="edge" attr.name="log_confidence" attr.type="double"/>
+	<key id="sign" for="edge" attr.name="sign" attr.type="string"/>
+	<key id="partialCorrelation" for="edge" attr.name="partialCorrelation" attr.type="double"/>
+	<key id="edgeType" for="edge" attr.name="edgeType" attr.type="int"/>
+
+	<graph edgedefault="directed">
+		<node id="Species">
+			<data key="label">Species</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="Diameter">
+			<data key="label">Diameter</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="Height">
+			<data key="label">Height</data>
+			<data key="weight">0.5</data>
+		</node>
+
+		<edge target="Diameter" source="Species" directed="false">
+			<data key="label">Diameter---Species</data>
+			<data key="edgeType">1</data>
+			<data key="weight">1.495392</data>
+			<data key="upstream">NA</data>
+			<data key="info">6.3031</data>
+			<data key="complexity">2.56462</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">3.73848</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.173911689646991</data>
+		</edge>
+		<edge target="Height" source="Species" directed="false">
+			<data key="label">Height---Species</data>
+			<data key="edgeType">1</data>
+			<data key="weight">1.058252</data>
+			<data key="upstream">NA</data>
+			<data key="info">5.20246</data>
+			<data key="complexity">2.55683</data>
+			<data key="nSamples"></data>
+			<data key="log_confidence">2.64563</data>
+			<data key="sign">-</data>
+			<data key="partialCorrelation">-0.157910187514089</data>
+		</edge>
+	</graph>
+</graphml>
+

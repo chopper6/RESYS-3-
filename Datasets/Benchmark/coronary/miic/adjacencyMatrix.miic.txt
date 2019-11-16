@@ -1,0 +1,7 @@
+Smoking	M. Work	P. Work	Pressure	Proteins	Family
+Smoking	0	1	1	1	1	0
+M. Work	1	0	1	0	1	1
+P. Work	1	1	0	0	0	0
+Pressure	1	0	0	0	1	0
+Proteins	1	1	0	1	0	0
+Family	0	1	0	0	0	0
