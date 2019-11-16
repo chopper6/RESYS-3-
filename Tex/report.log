@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.12.18)  14 NOV 2019 16:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.12.18)  15 NOV 2019 10:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1438,37 +1438,40 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
-<../Preliminary/exptot.pdf, id=36, 866.43358pt x 1301.1564pt>
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
+<../Preliminary/genepca.png, id=30, 558.085pt x 513.92pt>
+File: ../Preliminary/genepca.png Graphic file (type png)
+
+<use ../Preliminary/genepca.png>
+Package pdftex.def Info: ../Preliminary/genepca.png used on input line 248.
+(pdftex.def)             Requested size: 269.74269pt x 248.39621pt.
+
+<../Preliminary/exptot.pdf, id=32, 866.43358pt x 1301.1564pt>
 File: ../Preliminary/exptot.pdf Graphic file (type pdf)
 
 <use ../Preliminary/exptot.pdf>
 Package pdftex.def Info: ../Preliminary/exptot.pdf used on input line 255.
-(pdftex.def)             Requested size: 322.50345pt x 484.31902pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 258.
- [5 <../Preliminary/exptot.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 258.
+(pdftex.def)             Requested size: 414.65387pt x 496.8072pt.
+ [3 <../Preliminary/genepca.png>] [4 <../Preliminary/exptot.pdf>] [5]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 266.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 266.
  (./report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 258.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 258.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 266.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 266.
 Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 258.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 266.
  ) 
 Here is how much of TeX's memory you used:
- 32611 strings out of 494335
- 760806 string characters out of 6163478
- 955351 words of memory out of 5000000
- 35330 multiletter control sequences out of 15000+600000
- 20046 words of font info for 53 fonts, out of 8000000 for 9000
+ 32624 strings out of 494335
+ 761054 string characters out of 6163478
+ 955638 words of memory out of 5000000
+ 35340 multiletter control sequences out of 15000+600000
+ 20721 words of font info for 54 fonts, out of 8000000 for 9000
  350 hyphenation exceptions out of 8191
  69i,11n,120p,729b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/gr3w/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1200.600p
+ </home/gr3w/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/eccc1200.600p
+k> </home/gr3w/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1200.600p
 k> </home/gr3w/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600p
 k> </home/gr3w/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600p
 k> </home/gr3w/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600p
@@ -1478,10 +1481,10 @@ k> </home/gr3w/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/eccc1440.600p
 k> </home/gr3w/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2488.600p
 k> </home/gr3w/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1440.600p
 k></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on report.pdf (5 pages, 171778 bytes).
+Output written on report.pdf (5 pages, 190489 bytes).
 PDF statistics:
- 311 PDF objects out of 1000 (max. 8388607)
- 83 compressed objects within 1 object stream
- 14 named destinations out of 1000 (max. 500000)
- 24 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 331 PDF objects out of 1000 (max. 8388607)
+ 91 compressed objects within 1 object stream
+ 16 named destinations out of 1000 (max. 500000)
+ 23 words of extra memory for PDF output out of 10000 (max. 10000000)
 

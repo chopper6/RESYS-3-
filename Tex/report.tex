@@ -240,19 +240,27 @@
 	\begin{itemize}
 		\item[$\bullet$] For Hematopoietic Cells : Hbb-bH1, Gata1, Nfe2, Gfi1b, Ikzf1 (Ikaros) and Myb
 		\item[$\bullet$] For Endothelial Cells : Erg, Sox7, Sox17, Hoxb4, Cdh5
-		\item[]
 	\end{itemize}
-	In order to support our categories we plotted the distribution of the mean gene expression levels in the different stages :
-
+	\paragraph{}
+	In order to build our own gene categories, we have proceeded in the following way. Each gene is represented by 5 values, those are the mean expression at each sampling points. Before doing unsupervised clustering we wanted to see if the genes were spatially grouping in terms of when they were expressed and how much they were expressed. We therefore ran a Principal Component Analysis (see Fig.~\ref{fig:genePCA}).Using this two dimensional representation of the data we were able to see that the genes characteristic of the different end stages grouped together. We separated the data into three clusters using K-Means algorithm (see again Fig.~\ref{fig:genePCA}).\\
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[height = 0.4\textheight]{../Preliminary/genepca.png}
+		\caption{Genes represented after PCA transformation and grouped by unsupervised clustering into three clusters.}
+		\label{fig:genePCA}
+	\end{figure}
+		We then plotted the actual mean expression values of the different genes grouped by their infered categories (see Fig). We clearly see the distinction in between groups, the clear expression of genes categorized as Hematopoietic in the 4SG stage as well as the expression of Endothelial genes in the 4SFG stage. 
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width = 0.9\linewidth, height = 0.8\textheight]{../Preliminary/exptot.pdf}
+		\caption{Mean gene expression values throughout the experiment. \textbf{A} Precursor genes \textbf{B} Hematopoietic genes \textbf{C} Endothelial genes}
+		\label{fig:meangene}
+	\end{figure}
 
 
 \section*{Their Network Inference}
 \section*{Using MIIC}
-\newpage
 \section*{Appendix}
-\begin{figure}[h]
-	\centering
-	\includegraphics*[width = 0.6\linewidth]{../Preliminary/exptot.pdf}
-\end{figure}
+
 	
 \end{document}
