@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.12.18)  17 NOV 2019 02:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.12.18)  17 NOV 2019 02:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1512,7 +1512,7 @@ File: ../Preliminary/genepca.png Graphic file (type png)
 Package pdftex.def Info: ../Preliminary/genepca.png used on input line 268.
 (pdftex.def)             Requested size: 282.52473pt x 260.16803pt.
 
-<../Preliminary/exptot.pdf, id=32, 866.43358pt x 1301.1564pt>
+<../Preliminary/exptot.pdf, id=33, 866.43358pt x 1301.1564pt>
 File: ../Preliminary/exptot.pdf Graphic file (type pdf)
 
 <use ../Preliminary/exptot.pdf>
@@ -1548,7 +1548,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 378--380
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7]
-<../Datasets/miic-trimmed/miic-trimmed.png, id=98, 1887.05pt x 981.6675pt>
+<../Datasets/miic-trimmed/miic-trimmed.png, id=99, 1887.05pt x 981.6675pt>
 File: ../Datasets/miic-trimmed/miic-trimmed.png Graphic file (type png)
 
 <use ../Datasets/miic-trimmed/miic-trimmed.png>
@@ -1556,7 +1556,7 @@ Package pdftex.def Info: ../Datasets/miic-trimmed/miic-trimmed.png used on inpu
 t line 388.
 (pdftex.def)             Requested size: 469.75502pt x 244.36774pt.
  [8 <../Datasets/miic-trimmed/miic-trimmed.png>]
-<../Biblio/images/pap_network.png, id=108, 2053.6725pt x 941.5175pt>
+<../Biblio/images/pap_network.png, id=109, 2053.6725pt x 941.5175pt>
 File: ../Biblio/images/pap_network.png Graphic file (type png)
 
 <use ../Biblio/images/pap_network.png>
@@ -1601,10 +1601,10 @@ fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/symbols/msbm10.pfb>
-Output written on report.pdf (10 pages, 1610383 bytes).
+Output written on report.pdf (10 pages, 1611537 bytes).
 PDF statistics:
- 473 PDF objects out of 1000 (max. 8388607)
- 158 compressed objects within 2 object streams
+ 477 PDF objects out of 1000 (max. 8388607)
+ 159 compressed objects within 2 object streams
  36 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 

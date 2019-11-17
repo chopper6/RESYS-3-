@@ -243,7 +243,7 @@
 	The biological process we are studying is one of differentiation of multipotent precursor cells \textit{Hemangioblasts} into hematopoietic and endothelial cells alike. In the mouse embryo, there is emergence of blood cells at day 7 in the yolk sac and this is the marker of the beginning of the hematopoiesis. Both the Hematopoietic Stem Cells (HSC) and the Endothelial Stem Cells (EPC) originate from these multipotent precursor cells. The blood cells will be formed by differentiation of the HSCs while the vasculature (tissue of the blood vessels) will be formed through differentiation of the ESCs.
 
 \subsection*{The Experiment}
-	In the paper \textit{Decoding the Regulatory Network for Blood Development from Single-Cell Gene Expression Measurements}, single-cell gene expression data was used in order to infer the regulatory networks at work during the hematopoietic differenciation process. It is known that blood development
+	In the paper \textit{Decoding the Regulatory Network for Blood Development from Single-Cell Gene Expression Measurements}, single-cell gene expression data was used in order to infer the regulatory networks at work during the hematopoietic differentiation process. It is known that blood development
 	initiates at gastrulation from mesodermal cells, which initially have the potential to form blood, endothelium and smooth muscle cells. They showed that single-cell analysis of a developing organ coupled with computational approaches can reveal the transcriptional programs that control organogenesis.\\
 	In order to acquire the data necessary they sampled single-cells in \textit{in vivo} mice embryos. The cells were sampled from the mesoderm and their potential to differentiate into blood cells was asserted thanks to expression of Flk1 and Runx1 expression. The sampling was done at four distinct time points.\\
 	Those four times points define groups of cells, which are not hemogeneous since the differentiation process is asynchronous. That is to say some cells begin their differentiation process earlier than others :
@@ -269,7 +269,7 @@
 		\caption{Genes represented after PCA transformation and grouped by unsupervised clustering into three clusters.}
 		\label{fig:genePCA}
 	\end{figure}
-		We then plotted the actual mean expression values of the different genes grouped by their infered categories (see Fig). We clearly see the distinction in between groups, the clear expression of genes categorized as Hematopoietic in the 4SG stage as well as the expression of Endothelial genes in the 4SFG stage. 
+		We then plotted the actual mean expression values of the different genes grouped by their infered categories (see Fig.~\ref{fig:meangene}). We clearly see the distinction in between groups, the clear expression of genes categorized as Hematopoietic in the 4SG stage as well as the expression of Endothelial genes in the 4SFG stage. 
 	\begin{figure}[h!]
 		\centering
 		\includegraphics[width = 0.9\linewidth, height = 0.8\textheight]{../Preliminary/exptot.pdf}
@@ -382,7 +382,7 @@
  Given the drawbacks of the approach, it is used as a preprocessing tool instead of inferring the hematopoietic regulatory network alone. The large amount of nodes result in lower thresholds for the expected change in conditional entropy. As such the algorithm should not be as harsh as when applied to the benchmarks. Indeed, most genes remain and the graph remains dense after running the algorithm. 4 genes were removed since their entropy alone was 0. The algorithm then continued to remove 6 more genes, reducing the total to 36. Although graph remains too dense, the algorithm trimmed some edges, resulting in an average in-degree and out-degree of 28. This reduction simplified the subsequent application of the MIIC algorithm to infer the hematopoietic regulatory network.
  
 \section*{Using MIIC}
-	We then turned to MIIC to infer a network from the dataset provided. Now that we've categorized the genes and trimmed those that did not provide enough information. We downloaded the tool from gitHub and compiled the sources. We present the resulting graph in Fig.~\ref{fig:miicnetwork}.
+	We then turned to MIIC to infer a network from the dataset provided, now that we've categorized the genes and trimmed those that did not provide enough information. We downloaded the tool from gitHub and compiled the sources. We present the resulting graph in Fig.~\ref{fig:miicnetwork}.
 	\begin{figure}[h!]
 		\centering
 		\includegraphics[width =\linewidth]{../Datasets/miic-trimmed/miic-trimmed.png}
@@ -390,13 +390,13 @@
 		\label{fig:miicnetwork}
 	\end{figure}
 
-\paragraph{Discussion }The network clearly represents the hematopoietic process as seen by the repression links  infered between the genes classified as hematopoietic and those classified as endothelial. The Cdh1 gene behaves as a regulator ( through repression) of the other precursor genes, if we look back at its gene expression levels we see that the expression drops throughout the differentiation process. It leads us to believe that it was wrongly categorized as an hematopoietic gene, that it should rather be categorized as a precursor gene.
+\paragraph{Discussion }The network clearly represents the hematopoietic process as seen by the repression links  infered between the genes classified as hematopoietic and those classified as endothelial. The Cdh1 gene behaves as a regulator ( through repression) of the other precursor genes, if we look back at its gene expression levels we see that the expression drops throughout the differentiation process. This gene was not taken into account in the paper \textit{Learning causal networks with latent variables from multivariate information in genomic data.} (PLoS computational biology 2017, Verny et al.). It leads us to believe that it was wrongly categorized as an hematopoietic gene, that it should rather be categorized as a precursor gene.
 
 \section*{Their Network Inference Method}
-The network inference tool used in the article was specially developed for their purpose. And indeed it achieves good results. Moreover it is explanatory, in the sense that it provides the update function of each gene as a boolean fucntion. We were first tempted to implement it but we finally decided, the amount of work was excessive. Still, we found it interesting to describe their method.
+The network inference tool used in the article was specially developed for their purpose. And indeed it achieves good results. Moreover it is explanatory, in the sense that it provides the update function of each gene as a boolean fucntion. However, the approach also risks being overly ambitious since the search space is extremely large. We were first tempted to implement it but we finally decided, the amount of work was excessive. Still, we found it interesting to describe their method.
 
 \paragraph{State-transition graph} 
-The number of cell is great enough to consider we have all the states the cells can be in. Every pair of states that differ in the expression of exactly one gene are connected to form the state-transition graph.
+The number of cells is great enough to consider we have all the states the cells can be in. Every pair of states that differ in the expression of exactly one gene are connected to form the state-transition graph.
 \paragraph{Network Inference}
 Then they search for the direction of the edges as well as the Boolean update function for each of the genes. To do so, they translate their problem into a SAT problem.
 
@@ -407,7 +407,7 @@ Then they search for the direction of the edges as well as the Boolean update fu
 	\label{fig:scns}
 \end{figure}
 
-\paragraph{Discussion} One thing interesting about this type of boolean network is that you can find its stable state. A stable state will be assigning a value of expression (ie expressed or not) to each gene such that all boolean equalities are satisfied. We would expect the final cells (those that have already specified) to be stable state of the network. If the 4SG cells are indeed stable state (or some of them at least) then it does tell that the network is accurate. Also one such network would allow to simulate the evolution of a cell, it would be interesting to know how well this network fares in doing so.
+\paragraph{Discussion} One thing interesting about this type of boolean network is that you can find its stable state. A stable state will be assigning a value of expression (ie expressed or not) to each gene such that all boolean equalities are satisfied. We would expect the final cells (those that have already specified) to be stable state of the network. If the 4SG cells are indeed a stable state (or some of them at least) then it does tell that the network is accurate. Also one such network would allow one to simulate the evolution of a cell, it would be interesting to know how well this network fares in doing so.
 
 
 
