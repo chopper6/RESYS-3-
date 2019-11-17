@@ -1,0 +1,19 @@
+Conditional Entropy Network Inference 
+
+Paths: must modify local paths at the top of infer_network.py to use
+
+Usage: python infer_network.py
+
+Output: command line information + png of final network
+
+Main Parameters: 
+- modify them manually in infer_network.py, not command line
+- dataset: 
+	- primary project was with 'hema' 
+	- also exist binary problems such as '5AND' and benchmarks such as 'lizards'
+	- see data.py for more options
+- G:
+	- instead of starting from a complete graph, can use a pre-built networkx graph 
+- thresh_mult:
+	- cheap way to modify the threshold with which remove edges 
+	- not used in final report since varies too much with different datasets
