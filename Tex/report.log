@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.12.18)  17 NOV 2019 00:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.12.18)  17 NOV 2019 02:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1333,41 +1333,26 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \WF@box=\box92
 \WF@everypar=\toks52
 Package: wrapfig 2003/01/31  v 3.6
-) (./report.aux)
-\openout1 = `report.aux'.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+\Gm@cnth=\count184
+\Gm@cntv=\count185
+\c@Gm@tempcnt=\count186
+\Gm@bindingoffset=\dimen265
+\Gm@wd@mp=\dimen266
+\Gm@odd@mp=\dimen267
+\Gm@even@mp=\dimen268
+\Gm@layoutwidth=\dimen269
+\Gm@layoutheight=\dimen270
+\Gm@layouthoffset=\dimen271
+\Gm@layoutvoffset=\dimen272
+\Gm@dimlist=\toks53
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf.sty
+Package: epstopdf 2016/05/15 v2.6 Conversion with epstopdf on the fly (HO)
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 182.
-LaTeX Font Info:    ... okay on input line 182.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 182.
-LaTeX Font Info:    ... okay on input line 182.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 182.
-LaTeX Font Info:    ... okay on input line 182.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 182.
-LaTeX Font Info:    ... okay on input line 182.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 182.
-LaTeX Font Info:    ... okay on input line 182.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 182.
-LaTeX Font Info:    ... okay on input line 182.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 182.
-LaTeX Font Info:    ... okay on input line 182.
-LaTeX Info: Redefining \degres on input line 182.
-LaTeX Info: Redefining \dots on input line 182.
-LaTeX Info: Redefining \up on input line 182.
-
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count184
-\scratchdimen=\dimen265
-\scratchbox=\box93
-\nofMPsegments=\count185
-\nofMParguments=\count186
-\everyMPshowfont=\toks53
-\MPscratchCnt=\count187
-\MPscratchDim=\dimen266
-\MPnumerator=\count188
-\makeMPintoPDFobject=\count189
-\everyMPtoPDFconversion=\toks54
-) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
@@ -1383,13 +1368,58 @@ G,.JBIG2,.JB2,.eps]
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
-))
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2017/02/22 v2.0g Standard LaTeX package
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2017/02/22 v2.0g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+)) (./report.aux)
+\openout1 = `report.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 201.
+LaTeX Font Info:    ... okay on input line 201.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 201.
+LaTeX Font Info:    ... okay on input line 201.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 201.
+LaTeX Font Info:    ... okay on input line 201.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 201.
+LaTeX Font Info:    ... okay on input line 201.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 201.
+LaTeX Font Info:    ... okay on input line 201.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 201.
+LaTeX Font Info:    ... okay on input line 201.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 201.
+LaTeX Font Info:    ... okay on input line 201.
+LaTeX Info: Redefining \degres on input line 201.
+LaTeX Info: Redefining \dots on input line 201.
+LaTeX Info: Redefining \up on input line 201.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count187
+\scratchdimen=\dimen273
+\scratchbox=\box93
+\nofMPsegments=\count188
+\nofMParguments=\count189
+\everyMPshowfont=\toks54
+\MPscratchCnt=\count190
+\MPscratchDim=\dimen274
+\MPnumerator=\count191
+\makeMPintoPDFobject=\count192
+\everyMPtoPDFconversion=\toks55
+)
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
-
-(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
 Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 )
 Package caption Info: wrapfig package is loaded.
@@ -1400,18 +1430,18 @@ Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.14}).
 
 \AtBeginShipoutBox=\box94
-Package hyperref Info: Link coloring ON on input line 182.
+Package hyperref Info: Link coloring ON on input line 201.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count190
+\c@section@level=\count193
 )
-LaTeX Info: Redefining \ref on input line 182.
-LaTeX Info: Redefining \pageref on input line 182.
-LaTeX Info: Redefining \nameref on input line 182.
+LaTeX Info: Redefining \ref on input line 201.
+LaTeX Info: Redefining \pageref on input line 201.
+LaTeX Info: Redefining \nameref on input line 201.
 
 (./report.out) (./report.out)
 \@outlinefile=\write5
@@ -1426,68 +1456,132 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 207.
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-34.8738pt
+* \headheight=15.0pt
+* \headsep=19.8738pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=54.2025pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+LaTeX Font Info:    Try loading font information for U+msa on input line 226.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 207.
+LaTeX Font Info:    Try loading font information for U+msb on input line 226.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \vbox (badness 4954) has occurred while \output is active []
+
+ [2]
 <../Preliminary/genepca.png, id=30, 558.085pt x 513.92pt>
 File: ../Preliminary/genepca.png Graphic file (type png)
 
 <use ../Preliminary/genepca.png>
-Package pdftex.def Info: ../Preliminary/genepca.png used on input line 248.
-(pdftex.def)             Requested size: 269.74269pt x 248.39621pt.
+Package pdftex.def Info: ../Preliminary/genepca.png used on input line 268.
+(pdftex.def)             Requested size: 282.52473pt x 260.16803pt.
 
 <../Preliminary/exptot.pdf, id=32, 866.43358pt x 1301.1564pt>
 File: ../Preliminary/exptot.pdf Graphic file (type pdf)
 
 <use ../Preliminary/exptot.pdf>
-Package pdftex.def Info: ../Preliminary/exptot.pdf used on input line 255.
-(pdftex.def)             Requested size: 414.65387pt x 496.8072pt.
- [3 <../Preliminary/genepca.png>]
-<../Datasets/miic-trimmed/miic-trimmed.png, id=44, 1887.05pt x 981.6675pt>
+Package pdftex.def Info: ../Preliminary/exptot.pdf used on input line 275.
+(pdftex.def)             Requested size: 422.78459pt x 520.35406pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[3 <../Preliminary/genepca.png>] [4 <../Preliminary/exptot.pdf>] [5
+
+]
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 350--351
+[][] 
+ []
+
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 368--369
+[][] 
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 375--377
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 378--380
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7]
+<../Datasets/miic-trimmed/miic-trimmed.png, id=98, 1887.05pt x 981.6675pt>
 File: ../Datasets/miic-trimmed/miic-trimmed.png Graphic file (type png)
 
 <use ../Datasets/miic-trimmed/miic-trimmed.png>
 Package pdftex.def Info: ../Datasets/miic-trimmed/miic-trimmed.png used on inpu
-t line 264.
-(pdftex.def)             Requested size: 460.72124pt x 239.66432pt.
- [4 <../Preliminary/exptot.pdf>] [5 <../Datasets/miic-trimmed/miic-trimmed.png>
-]
-<../Biblio/images/pap_network.png, id=71, 2053.6725pt x 941.5175pt>
+t line 388.
+(pdftex.def)             Requested size: 469.75502pt x 244.36774pt.
+ [8 <../Datasets/miic-trimmed/miic-trimmed.png>]
+<../Biblio/images/pap_network.png, id=108, 2053.6725pt x 941.5175pt>
 File: ../Biblio/images/pap_network.png Graphic file (type png)
 
 <use ../Biblio/images/pap_network.png>
-Package pdftex.def Info: ../Biblio/images/pap_network.png used on input line 28
-1.
-(pdftex.def)             Requested size: 460.72124pt x 211.21454pt.
- [6 <../Biblio/images/pap_network.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 291.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 291.
-
-(./report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 291.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 291.
+Package pdftex.def Info: ../Biblio/images/pap_network.png used on input line 40
+5.
+(pdftex.def)             Requested size: 469.75502pt x 215.35207pt.
+ [9 <../Biblio/images/pap_network.png>]
+[10]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 415.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 415.
+ (./report.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 415.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 415.
 Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 291.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 415.
  ) 
 Here is how much of TeX's memory you used:
- 32642 strings out of 494335
- 761519 string characters out of 6163478
- 955853 words of memory out of 5000000
- 35352 multiletter control sequences out of 15000+600000
+ 33196 strings out of 494335
+ 769526 string characters out of 6163478
+ 975925 words of memory out of 5000000
+ 35880 multiletter control sequences out of 15000+600000
  20721 words of font info for 54 fonts, out of 8000000 for 9000
  350 hyphenation exceptions out of 8191
- 69i,11n,120p,729b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,16n,120p,793b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/gr3w/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/eccc1200.600p
 k> </home/gr3w/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1200.600p
 k> </home/gr3w/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600p
@@ -1498,11 +1592,19 @@ k> </home/gr3w/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1095.600p
 k> </home/gr3w/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/eccc1440.600p
 k> </home/gr3w/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2488.600p
 k> </home/gr3w/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1440.600p
-k></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on report.pdf (6 pages, 1516883 bytes).
+k></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/symbols/msbm10.pfb>
+Output written on report.pdf (10 pages, 1610383 bytes).
 PDF statistics:
- 369 PDF objects out of 1000 (max. 8388607)
- 101 compressed objects within 2 object streams
- 22 named destinations out of 1000 (max. 500000)
+ 473 PDF objects out of 1000 (max. 8388607)
+ 158 compressed objects within 2 object streams
+ 36 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
